@@ -12,4 +12,4 @@ This code has been tested on Ubuntu 16.04 but should work on Windows/Mac OS with
 
 ## Installation
 
-On Ubuntu run from terminal `sudo apt install`
+On Ubuntu run from terminal `sudo apt install python`. Alternatively [download](https://www.python.org/downloads/) Python from the Python website.
