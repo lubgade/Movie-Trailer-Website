@@ -13,7 +13,7 @@ This code has been tested on Ubuntu 16.04 but should work on Windows/Mac OS with
 ## Installation
 
 To install Python On Ubuntu, run from terminal `sudo apt install python`. Alternatively [download](https://www.python.org/downloads/) Python from the Python website. Instructions for installation are on the website.
-Once Python is installed, to use this application/code a user can fork this repository, download a .zip archive & unzip or if git is already installed from terminal    git clone https://github/lubgade/Movie-Trailer-Website`.  
+Once Python is installed, to use this application/code a user can fork this repository, download a .zip archive & unzip or if git is already installed from terminal    `git clone https://github/lubgade/Movie-Trailer-Website`.  
 (To install git from terminal `sudo apt install git`). 
 
 ## Usage
