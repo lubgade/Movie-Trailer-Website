@@ -35,6 +35,17 @@ To run the application, open `entertainment_center.py` module using IDLE or from
 * `poster_image_url` - url of the poster image
 * `trailer_youtube_url` - url of the youtube video for the movie
 
+### Example of an instance of the class Movie
+
+```python
+special_26 = media.Movie("Special 26",
+                         "Heist crime thriller",
+                         "https://upload.wikimedia.org/wikipedia/en/7/7c/Special_26_poster.jpg",
+                         "https://www.youtube.com/watch?v=DNi8nyn-v0s")
+```                         
+                         
+
+
 
 
 
