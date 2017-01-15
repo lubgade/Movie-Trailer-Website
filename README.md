@@ -26,5 +26,15 @@ To run the application, open `entertainment_center.py` module using IDLE or from
 
 * `entertainment_center.py` - the core module, that imports the other two. Creates a list of movies then passes it to the `fresh_tomatoes.py` module to output static content. 
 * `media.py` - used by the `entertainment_center.py` module. This is the blueprint for creating instances of the `Movie` object with different properties.
-* `fresh_tomatoes.py` - used by `entertainment_center.py` module to generate static HTML page from a list of movies. 
+* `fresh_tomatoes.py` - used by `entertainment_center.py` module to generate static HTML page from a list of movies.
+
+### Properties of the class Movie
+
+* `title` - the movie title
+* `storyline` - the storyline of the movie
+* `poster_image_url` - url of the poster image
+* `trailer_youtube_url` - url of the youtube video for the movie
+
+
+
 
