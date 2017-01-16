@@ -20,7 +20,7 @@ Once Python is installed, to use this application/code a user can fork this repo
 ## Usage
 
 To run the application, open `entertainment_center.py` module using IDLE or from terminal    
-`python entertainment_center.py`. This will generate an `Movie Trailers.html` file in the browser.
+`python entertainment_center.py`. This will generate a `Movie Trailers.html` file in the browser.
 
 #### Modules
 
