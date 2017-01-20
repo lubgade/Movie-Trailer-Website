@@ -16,7 +16,8 @@ Optional - To use the api integration install tmdbsimple
 To install Python On Ubuntu, run from terminal `sudo apt install python`. Alternatively [download](https://www.python.org/downloads/) Python from the Python website. Instructions for installation are on the website.
 Once Python is installed, to use this application/code a user can fork this repository, download a .zip archive & unzip or if git is already installed from terminal   
 `git clone https://github.com/lubgade/Movie-Trailer-Website`.  
-(To install git from terminal `sudo apt install git`). 
+(To install git from terminal `sudo apt install git`).   
+
 Optional - 
 * To install tmdbsimple `sudo pip install tmdbsimple`(To install pip - `sudo apt install python-pip`). 
 * Register to [the movie database](https://www.themoviedb.org/account/signup) and generate an API Key.
