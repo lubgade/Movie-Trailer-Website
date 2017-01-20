@@ -9,7 +9,7 @@ A basic movie trailer website created with Python, in partial fulfilment of the 
 
 Requires Python 2.7.12, Ubuntu 16.04 and IDLE(optional, typically installed as a part of Python install).
 This code has been tested on Ubuntu 16.04 but should work on Windows/Mac OS with Python 2.7.12.
-Optional - To use the api integration install tmdbsimple
+Optional - To use the API integration install tmdbsimple
 
 ## Installation
 
@@ -24,15 +24,15 @@ Once Python is installed, to use this application/code a user can fork this repo
 
 ## Usage
 
-To run the application, open `entertainment_center.py` module using IDLE or from terminal    
-`python entertainment_center.py`. This will generate a `Movie Trailers.html` file in the browser. Each time the user runs this application, the `Movie Trailers.html` file will be overwritten.
+To run the application, open `entertainment_center.py` module or the `movie_center.py` module using IDLE or from terminal    
+`python entertainment_center.py` or `python movie_center.py`. This will generate a `Movie Trailers.html` file in the browser. Each time the user runs this application, the `Movie Trailers.html` file will be overwritten.
 
 #### Modules
 
 * `entertainment_center.py` - the core module, that imports the other two. Creates a list of movies then passes it to the `fresh_tomatoes.py` module to output static content. 
 * `media.py` - used by the `entertainment_center.py` module. This is the blueprint for creating instances of the `Movie` object with different properties.
 * `fresh_tomatoes.py` - used by `entertainment_center.py` module to generate static HTML page from a list of movies.
-* `movie_center.py` - an extra module which integrates with [the movie database api](https://www.themoviedb.org/documentation/api) to generate an HTML page for recently playing movies.
+* `movie_center.py` - an extra module which integrates with [the movie database API](https://www.themoviedb.org/documentation/api) to generate an HTML page for upcoming movies.
 
 #### Properties of the class Movie
 
@@ -53,7 +53,7 @@ special_26 = media.Movie("Special 26",
 ## Extras
 
 * `fresh_tomatoes.py` modified to include tooltip using bootstrap to show the `storyline` for each movie
-*  `movie_center.py` integrates with the movie database api to generate an HTML page for recently playing movies.
+*  `movie_center.py` integrates with the movie database API to generate an HTML page for upcoming movies.
                          
 
 
