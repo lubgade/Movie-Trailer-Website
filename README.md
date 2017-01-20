@@ -18,7 +18,7 @@ Once Python is installed, to use this application/code a user can fork this repo
 `git clone https://github.com/lubgade/Movie-Trailer-Website`.  
 (To install git from terminal `sudo apt install git`).   
 
-Optional - 
+#### Optional - 
 * To install tmdbsimple `sudo pip install tmdbsimple`(To install pip - `sudo apt install python-pip`). 
 * Register to [the movie database](https://www.themoviedb.org/account/signup) and generate an API Key.
 
